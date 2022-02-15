@@ -4,7 +4,7 @@ const produtos = [
         nome: 'Banana',
         preco: '2.00',
         secao: 'Hortifruti',
-        categoria: 'fruta',
+        categoria: 'Fruta',
         img: "./src/img/banana.png",
         promocao: true,
         precoPromocao: '1.00',
@@ -20,7 +20,7 @@ const produtos = [
         nome: 'Morango',
         preco: '2.00',
         secao: 'Hortifruti',
-        categoria: 'fruta',
+        categoria: 'Fruta',
         img: './src/img/morango.png',
         promocao: false,
         precoPromocao: '0',
@@ -36,8 +36,8 @@ const produtos = [
         nome: 'Maçã',
         preco: '2.00',
         secao: 'Hortifruti',
-        categoria: 'fruta',
-        img: './src/img/maça.png',
+        categoria: 'Fruta',
+        img: './src/img/maca.png',
         promocao: true,
         precoPromocao: '1.50',
         componentes: [
@@ -80,3 +80,5 @@ const produtos = [
     },
     
 ]
+
+

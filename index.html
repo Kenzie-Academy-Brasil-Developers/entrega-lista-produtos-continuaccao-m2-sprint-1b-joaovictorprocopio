@@ -16,13 +16,13 @@
     <header>
         <div id="filters" class="filtersContainer">
             
-            <button class="estiloGeralBotoes estiloGeralBotoes--mostrarTodos">Mostrar Todos</button>
-            <button class="estiloGeralBotoes estiloGeralBotoes--filtrarHortifruti">Mostrar Hortifruti</button>
+            <button id="mostrarTodos" class="estiloGeralBotoes estiloGeralBotoes--mostrarTodos">Mostrar Todos</button>
+            <button id="filtrarHortifruti" class="estiloGeralBotoes estiloGeralBotoes--filtrarHortifruti">Mostrar Hortifruti</button>
 
             <div class="containerBuscaPorNome">
                 
-                <input type="text" placeholder="Nome do produto" class="campoBuscaPorNome">
-                <button class="estiloGeralBotoes estiloGeralBotoes--botaoBuscaPorNome">Buscar</button>
+                <input type="text" placeholder="Nome do produto" id="campoBuscaPorNome" class="campoBuscaPorNome">
+                <button id="botaoBuscaPorNome" class="estiloGeralBotoes estiloGeralBotoes--botaoBuscaPorNome">Buscar</button>
 
             </div>
         </div>
@@ -30,14 +30,14 @@
 
     <main>
         <div class="containerListaProdutos" id="listProdutos">
-            <ul>
+            <ul id="cards">
                 <!-- LISTA DE PRODUTOS -->
 
             </ul>
         </div>
 
         <div id="carrinho" class="containerCarrinho">
-            <ul>
+            <ul id="cart">
                 <!-- ITENS ADICIONADOS AO CARRINHO -->
 
             </ul>
